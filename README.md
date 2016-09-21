@@ -1,2 +1,2 @@
-# RadiocarbonHunt3
-Collecting radiocarbon dates from grey literature
+# RadiocarbonHunt
+Pybossa crowd-sourcing project to collect radiocarbon dates from grey literature. 
