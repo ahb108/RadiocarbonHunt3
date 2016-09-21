@@ -27,15 +27,15 @@ data from them, but in principle the same approach might allow us
 collectively to enhance the value of these reports in all sorts of
 other important ways.
 
-For this particular project, we have already conducted a first check of the entire
-report library and identified those reports that are very likely to
-contain radiocarbon dates. We now ask for your help with searching
+For this particular project, we have already conducted a first check
+of several groups of open access reports and identified those reports
+that are very likely to contain radiocarbon dates. Although a few may
+have no useful details, most should do. We now ask for your help with searching
 inside a particular report and entering any dates you find into a
 database in a systematic way. As always, any such contributions will
 themselves also be made publicly available.
 
 ### This project is on behalf of:
-[![Archaeology Data Service logo](http://micropasts-other.s3.amazonaws.com/other/ADS_logo.png)](http://archaeologydataservice.ac.uk/)
 [![UCL Institute of Archaeology logo](http://micropasts-other.s3.amazonaws.com/other/UCL_logo.png)](http://ucl.ac.uk/archaeology)
 [![British Museum logo](http://micropasts-other.s3.amazonaws.com/other/bmBlackWhite.png)](http://britishmuseum.org/)
 

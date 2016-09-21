@@ -262,7 +262,7 @@ task.
                     <li>
                         Comments: You make your own remarks here if you like and/or add further information about
                         a particular date you think is useful. For example, sometimes the type of bone (e.g. radius,
-                        ulna) will be mentioned, or a field sample number.
+                        ulna) will be mentioned, or a field sample number or site grid reference ("NGR").
                     </li>
                 </ol>
                 <img src="http://micropasts-other.s3.amazonaws.com/other/exampledates.png" class="img-polaroid"
@@ -275,7 +275,7 @@ task.
                 </p>
                 <ol>
                     <li>
-                        KeyPoint: We don't want to you to read through everything laboriously. Jus look for radiocarbon dates. For example, 
+                        KeyPoint: We don't want to you to read through everything laboriously. Just look for radiocarbon dates. For example, 
                         with the Firefox browser and some others, click on the pdf page then type CTRL-F (or CMD-F on a Mac). This will bring up a 
                         search function. Search for keywords such as "radiocarbon" or "±" (the plus-minus symbol often associated with dates). 
                         If you find no dates, then simply submit a blank spreadsheet.
@@ -361,18 +361,18 @@ task.
 <!-- Load user progress -->
 <script>
 	function loadUserProgress() {
-		pybossa.userProgress('RadiocarbonHunt2').done(function(data) {
+		pybossa.userProgress('RadiocarbonHunt3').done(function(data) {
 			console.log(data);
 			console.log("Total answers done for user: " + data.done);
-			if ((data.done == 1) && ($.cookie('surveyRadiocarbonHunt2') == undefined)) {
+			if ((data.done == 1) && ($.cookie('surveyRadiocarbonHunt3') == undefined)) {
 				$("#survey").modal('show');
-				$.cookie('surveyRadiocarbonHunt2', 'shown', {
+				$.cookie('surveyRadiocarbonHunt3', 'shown', {
 					path : '/'
 				});
 			}
-			if ((data.done >= 25) && ($.cookie('survey25RadiocarbonHunt2') == undefined)) {
+			if ((data.done >= 25) && ($.cookie('survey25RadiocarbonHunt3') == undefined)) {
 				$("#survey25").modal('show');
-				$.cookie('survey25RadiocarbonHunt2', 'shown', {
+				$.cookie('survey25RadiocarbonHunt3', 'shown', {
 					path : '/'
 				});
 			}
@@ -448,7 +448,7 @@ task.
 			$("#finish").fadeIn(500);
 		}
 	});
-	pybossa.run('RadiocarbonHunt2'); 
+	pybossa.run('RadiocarbonHunt3'); 
 
 
 
